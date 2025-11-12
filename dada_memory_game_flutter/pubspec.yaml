@@ -1,0 +1,54 @@
+name: dada_memory_game_flutter
+description: A memory card matching game ported from React to Flutter
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_database: ^10.4.0
+
+  # UUID Generation
+  uuid: ^4.3.3
+
+  # Icons
+  font_awesome_flutter: ^10.7.0
+
+  # Google Fonts
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launchers_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/logo.png
+    - assets/images/card1.png
+    - assets/images/card2.png
+    - assets/images/card3.png
+    - assets/images/card4.png
+    - assets/images/card5.png
+    - assets/images/card6.png
+    - assets/images/card7.png
+    - assets/images/card8.png
+    - assets/images/card9.png
+    - assets/images/card10.png
+    - assets/images/card11.png
+    - assets/images/card12.png
+    - assets/images/card13.png
+    - assets/images/card14.png
+    - assets/images/card15.png
